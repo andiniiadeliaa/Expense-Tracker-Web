@@ -1,70 +1,70 @@
 # Expense Tracker
 
-A simple and responsive web application for tracking daily expenses. Users can add transactions, monitor total spending, and visualize expenses by category through an interactive pie chart.
+A simple web application for recording and tracking daily expenses.
 
-## Preview
+## About the Project
 
-![Expense Tracker Preview](preview/preview.png)
+People often make several small transactions throughout the day without realizing how much they spend in total.
+
+Expense Tracker was created to provide a simple way to record daily expenses and group them into different categories. By organizing the transactions, users can see their spending more clearly.
+
+## Project Objectives
+
+The objectives of this project are:
+
+- Record daily expenses
+- Categorize transactions
+- Calculate total spending
+- Display transaction history
+- Show spending by category
+
+## How It Works
+
+Users can enter:
+
+- Item name
+- Amount
+- Category
+
+After a transaction is added, it will appear in the transaction history and the total spending will be updated.
+
+The application also displays spending by category so users can see which categories take up more of their spending.
 
 ## Features
 
-- Add and delete expense transactions
-- Real-time total balance calculation
-- Spending visualization with Chart.js
-- LocalStorage data persistence
-- Responsive design for desktop and mobile
-- Form validation with inline error messages
+- Add expense transactions
+- Delete transactions
+- Calculate total spending
+- View transaction history
+- View spending by category
+- Responsive interface
 
-## Built With
+## Impact
 
-- **HTML5** - Page structure
-- **CSS3** - Styling and responsive layout
-- **Vanilla JavaScript (ES6+)** - Application logic
-- **Chart.js** - Pie chart visualization
-- **LocalStorage API** - Client-side data persistence
+The application can help users become more aware of their daily spending.
 
-## Project Structure
+By recording and categorizing expenses, users can:
 
-```text
-Expense-Tracker/
-├── css/
-├── js/
-├── preview/
-│   └── preview.png
-├── design.md
-├── requirements.md
-├── index.html
-└── README.md
-```
+- See how much they spend
+- Identify categories with higher spending
+- Review their previous transactions
+- Use the information as a reference for managing their expenses
 
-## Getting Started
+This project focuses on simple expense tracking and does not replace a complete financial management application.
 
-1. Clone this repository.
+## Tools
 
-```bash
-git clone https://github.com/andiniiadeliaa/CodingCamp-3August26-Andini-Adelia-Putri.git
-```
+- HTML
+- CSS
+- JavaScript
 
-2. Open the project folder.
+## Project Files
 
-3. Launch `index.html` in any modern web browser.
+- `index.html`
+- `style.css`
+- `script.js`
 
-No installation or additional setup is required.
+## Screenshots
 
-## Documentation
-
--  `requirements.md` - Functional and non-functional requirements.
--  `design.md` - UI/UX design documentation, layout, color palette, and design decisions.
--  `architecture.md` - Application architecture, data flow, system components, and storage design.
-
-## Future Improvements
-
-- Custom categories
-- Monthly expense summary
-- Search and filter transactions
-- Dark mode
-- Export transaction history
-
-## Acknowledgements
-
-This project was developed as part of the CodingCamp Software Engineering program to practice building a client-side web application using HTML, CSS, and Vanilla JavaScript.
+### Main Page
+![Expense Tracker](preview/preview.png)
